@@ -1,0 +1,36 @@
+*{
+    text-align: center;
+    font-family: monospace;
+}
+h1{
+    font-size: 50px;
+    border:darkgrey solid;
+    padding: 1%;
+    margin-bottom: 50px;
+}
+p{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+img{
+    padding-top: 125px;
+    padding-bottom: 125px;
+}
+#boton{
+    height: 2em;
+    width: 5em;
+    font-size: 25px;
+    margin-top: 90px;
+}
+#izq{
+    display: flex;
+    display: inline-block;
+    align-items:center;
+    margin-right: 100px;
+}
+#der{
+    display: flex;
+    display: inline-block;
+    align-items:center;
+    margin-left: 100px;
+}

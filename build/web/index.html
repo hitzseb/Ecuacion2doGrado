@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <h1>Ecuación de segundo grado</h1>
+        <p>Introduzca los valores de a, b y c para resolver la ecuación de la forma que se muestra en la imagen:</p>
+        <div id="izq">
+            <form action="resultado.jsp" method="POST">
+                <p>a:</p>
+                <input type="text" name="a"><br>
+                <p>b:</p>
+                <input type="text" name="b"><br>
+                <p>c:</p>
+                <input type="text" name="c"><br>
+                <input type="submit" value="Resolver" id="boton">
+            </form>
+        </div>
+        <div id="der">
+            <img src="img/ec2.gif" alt="gif donde se muestra una ecuación de segundo grado y cómo resolverla">
+        </div>
+    </body>
+</html>

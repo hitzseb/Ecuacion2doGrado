@@ -1,0 +1,25 @@
+*{
+    text-align: center;
+    font-family: monospace;
+}
+h1{
+    font-size: 50px;
+    border:darkgrey solid;
+    padding: 1%;
+    margin-bottom: 100px;
+}
+p{
+    font-size: 25px;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    font-size: 25px;
+}
+span{
+    color: darkblue;
+}
+#boton{
+    height: 2em;
+    width: 5em;
+    font-size: 25px;
+    margin-top: 40px;
+}
