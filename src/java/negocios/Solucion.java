@@ -16,10 +16,10 @@ public class Solucion {
     private Double c;
     private Double dis;
 
-    public Solucion(String a1, String b1, String c2) {
+    public Solucion(String a1, String b1, String c1) {
         a = Double.parseDouble(a1);
         b = Double.parseDouble(b1);
-        c = Double.parseDouble(c2);
+        c = Double.parseDouble(c1);
         dis = (Math.pow(b, 2) - (4 * a * c));
     }
 

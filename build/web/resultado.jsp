@@ -16,7 +16,6 @@
         <%@ page import="negocios.Solucion" %>
         <%@ page import="negocios.Archivo" %>
         <%
-            // Extracción de los parámetros recibidos
             String a = request.getParameter("a");
             String b = request.getParameter("b");
             String c = request.getParameter("c");
